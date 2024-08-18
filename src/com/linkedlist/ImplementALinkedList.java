@@ -2,7 +2,7 @@ package com.linkedlist;
 
 
 //Solution for 707 Design a linked list
-class MyLinkedList {
+class ImplementALinkedList {
 
     public class Node {
         int val;
@@ -16,7 +16,7 @@ class MyLinkedList {
     int length;
     Node head;
 
-    public MyLinkedList() {
+    public ImplementALinkedList() {
         head = null;
         length = 0;
     }
@@ -106,7 +106,7 @@ class MyLinkedList {
     }
 
     public static void main(String... args) {
-        MyLinkedList obj = new MyLinkedList();
+        ImplementALinkedList obj = new ImplementALinkedList();
         obj.addAtIndex(0, 10);
         obj.addAtHead(7);
         obj.addAtHead(2);
