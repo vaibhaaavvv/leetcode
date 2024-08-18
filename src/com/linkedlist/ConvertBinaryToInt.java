@@ -19,6 +19,7 @@ public class ConvertBinaryToInt {
         }
     }
 
+
     public int getDecimalValue(ListNode head) {
         //find the length of the linked list first
         int length = calculateLength(head);
