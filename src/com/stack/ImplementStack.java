@@ -1,5 +1,7 @@
 package com.stack;
 
+import java.util.Stack;
+
 public class ImplementStack {
 
     static class Node {
@@ -54,5 +56,16 @@ public class ImplementStack {
         int topVal = obj.top();
         int popVal = obj.pop();
         boolean checkEmpty = obj.empty();
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        int poppped = stack.pop();
+        System.out.println(poppped);
+        int top = stack.peek();
+        System.out.println(top);
+        System.out.println(stack.empty());
     }
 }
